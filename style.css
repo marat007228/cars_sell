@@ -1,0 +1,179 @@
+*{
+    list-style-type: none;
+    
+}
+
+body {
+    font-family:sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+.mini_header{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}   
+.first_button{
+     display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 1400px;
+    margin: 0 auto;
+    height: 32px;
+}
+.container{
+display: flex;
+gap: 20px;
+align-items: center;
+}
+
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 15px;
+    color: white;
+}
+
+
+.second_song{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width:1400px;
+    margin: 0 auto;
+    height: 32px;
+    
+}
+.second_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    background-color:  #0C4A60;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 15px;
+  
+}
+.button_auto{
+    background-color: #FF6C2C;
+
+}
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.button_zauva{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background-color:  #FF6C2C;
+    color: white;
+    width:184px ;
+    height: 32px;
+    border-radius: 4px;
+}
+.categories{
+    width: 1400px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.category{
+    display: flex;
+    align-items: center;
+  width: 170px;
+  height: 100px;
+ border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+    background-color: #F2F1F0;
+    margin-top: 20px;
+   
+}
+
+.cars_sell{
+    width: 1520px; 
+    margin: 0 auto;
+}
+.recommendation_of_cars{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 20px;
+}
+.h1_of_recommendation{
+    font-size: 20px;
+}
+.baba_capa{
+    border: 1px solid rgb(175, 167, 167);
+    border-radius: 10px;
+}
+.h1_of_recommendation{
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.information_cars{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.summa_car{
+    background-color:  #FF6C2C;
+    width: 100px;
+    height: 25px;
+    color:white;
+    border-radius: 5px;
+    text-align: center;
+}
+.name_car{
+    color: #0C4A60;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19.36px;
+
+}
+.baku_time{
+    color:  #59595E;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 70px;
+margin-right: 150px;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    font-size: 18px;
+  
+}
+.active {
+    background-color: #1a73e8; 
+    color: white;
+    border-color: #1a73e8;
+}
+#text{
+    position: relative;
+}
+.text1{
+    position:absolute;
+    top: 3%;
+   
+}
+.text2{
+    position: absolute;
+    top: 50%;
+}
